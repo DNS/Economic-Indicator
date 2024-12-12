@@ -1,6 +1,6 @@
 ﻿<#
 Dependencies:
-	winget winget install JernejSimoncic.Wget
+	winget install JernejSimoncic.Wget
 	pip install pdfminer.six
 #>
 
@@ -31,3 +31,4 @@ DM	Developed Market
 EM	Emerging Market
 
 #>
+
