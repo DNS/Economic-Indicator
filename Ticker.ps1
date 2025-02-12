@@ -1,6 +1,6 @@
 ﻿# Ticker.ps1 — Get current US stock price quote
 
-# Martin Shkreli ticker API
+# from Martin Shkreli ticker API
 # https://generic709.herokuapp.com/stockc/${singleticker}
 
 
@@ -21,6 +21,7 @@ if (-not $bulk_symbols) {
 foreach ($symbol in $bulk_symbols) {
 	Invoke-RestMethod "https://generic709.herokuapp.com/stockc/$symbol"
 }
+
 
 
 
