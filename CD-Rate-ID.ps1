@@ -10,10 +10,12 @@ https://bri.co.id/simulasi-deposito
 #>
 
 # Danamon CD Rate
-$a -match '(?ims)<td>Rp 250.000.000 &ndash; &lt; Rp500.000.000</td>.+?<td>.+?</td>.+?<td>.+?</td>.+?<td>.+?</td>.+?<td>.+?</td>.+?<td>(.+?)%</td>'
-$cd_rate = $matches[1] / 100
-$cd_rate
-
+$a = iwr https://www.danamon.co.id/id/Personal/Lainnya/Suku-Bunga
+$m = $a.Content -match '(?ims)<td>Rp 250.000.000 &ndash; &lt; Rp500.000.000</td>.+?<td>.+?</td>.+?<td>.+?</td>.+?<td>.+?</td>.+?<td>.+?</td>.+?<td>(.+?)%</td>'
+if ($m) {
+	$cd_rate = $matches[1] / 100
+	$cd_rate
+}
 
 
 
