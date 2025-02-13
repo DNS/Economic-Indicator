@@ -1,4 +1,7 @@
 ﻿<#
+	kontan (outdated)
+	https://pusatdata.kontan.co.id/bungadeposito/
+
 	danamon
 	https://www.danamon.co.id/id/Personal/Lainnya/Suku-Bunga
 
