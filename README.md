@@ -1,7 +1,7 @@
 # Economic Indicator
 
+A Guide to Losing Money with Dignity 
 
-How to lose money and still be proud of it.
 
 Cmdlet | Description
 ----------- | -----------
