@@ -17,3 +17,4 @@ Wealth-BCA-Prioritas.ps1 | BCA wealth management recommendation
 
 \* TO DO
 
+© 2024 Daniel Sirait
