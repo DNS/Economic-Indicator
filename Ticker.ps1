@@ -19,7 +19,7 @@ if (-not $bulk_symbols) {
 
 
 foreach ($symbol in $bulk_symbols) {
-	Invoke-RestMethod "https://generic709.herokuapp.com/stockc/$symbol"
+	irm "https://generic709.herokuapp.com/stockc/$symbol"
 }
 
 
